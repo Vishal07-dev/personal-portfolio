@@ -1,3 +1,4 @@
+// Exper.jsx
 import React from 'react'
 
 import html from "../asset/html.png"
@@ -68,8 +69,8 @@ const Exper = () => {
         },
     ]
   return (
-    <div name ="experince" className="bg-gradient-to-b p-4 from-gray-800  to-black w-full h-screen ">
-        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+    <div className="bg-gradient-to-b from-gray-800 to-black w-full text-white">
+        <div name ="experince" className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center">
             <div>
                 <p className="text-4xl border-b-4 inline border-gray-500 p-2 font-bold">
                     Experience
@@ -97,4 +98,4 @@ const Exper = () => {
   )
 }
 
-export default Exper
+export default Exper;
