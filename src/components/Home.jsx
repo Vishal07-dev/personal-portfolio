@@ -1,34 +1,35 @@
 import React from 'react'
 import HeroImage from "../asset/heroImage.png";
 import { MdArrowRight } from "react-icons/md";
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
 const Home = () => {
-  return (
-    <div name="Home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
-        <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center 
+    return (
+        <div name="Home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
+            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center 
         h-full px-4 md:flex-row">
-            <div>
-                <h2 className="text-4xl sm:text-7xl font-bold text-white">Hello, I am Full Stack Developer</h2>
-                <p className="text-gray-500 py-4 max-w-md">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus minus,
-                     quos soluta non illum quidem totam eius rerum neque, unde quasi magnam? Ea 
-                    temporibus facere voluptatem natus a vitae illo tempore quasi sed eveniet?
-                </p>
                 <div>
-                    <Link to="portfolio" smooth duration ={500} 
-                    className="group text-white w-fit px-6 py-3 my-2 flex items-center 
+                    <h2 className="text-4xl sm:text-7xl font-bold text-white">                        I am Vishal Rohera, a Web Developer
+                    </h2>
+                    <p className="text-gray-500 py-4 max-w-md">
+                        I’m Vishal, a passionate front-end developer with a strong foundation in JavaScript, HTML, and CSS. Having mastered JavaScript, I'm currently honing my skills in React, where I’m building dynamic and responsive web applications. I’m also working with Tailwind CSS to create sleek, modern designs that are both functional and visually appealing. My journey in web development is driven by a love for clean code and a desire to create intuitive user experiences.
+
+
+                    </p>
+                    <div>
+                        <Link to="portfolio" smooth duration={500}
+                            className="group text-white w-fit px-6 py-3 my-2 flex items-center 
                     rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
-                        Portfoliospan
-                        <span className="group-hover:rotate-90 duration-300"><MdArrowRight size={25}/></span>
-                    </Link>
+                            Portfoliospan
+                            <span className="group-hover:rotate-90 duration-300"><MdArrowRight size={25} /></span>
+                        </Link>
+                    </div>
+                </div>
+                <div>
+                    <img src={HeroImage} alt="my pitcure" className="rounded-2xl mx-auto w-2/3 md:w-full" />
                 </div>
             </div>
-            <div>
-                <img src={HeroImage} alt="my pitcure"  className="rounded-2xl mx-auto w-2/3 md:w-full"/>
-            </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Home
