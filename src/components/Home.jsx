@@ -8,12 +8,8 @@ const Home = () => {
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center 
         h-full px-4 md:flex-row">
                 <div>
-                    <h2 className="text-4xl sm:text-7xl font-bold text-white">                        I am Vishal Rohera, a Web Developer
-                    </h2>
+                    <h2 className="text-4xl sm:text-5xl font-bold text-white">I am <span className='text-red-500'>Vishal</span> Rohera, a Web Developer</h2>
                     <p className="text-gray-500 py-4 max-w-md">
-                        I’m Vishal, a passionate front-end developer with a strong foundation in JavaScript, HTML, and CSS. Having mastered JavaScript, I'm currently honing my skills in React, where I’m building dynamic and responsive web applications. I’m also working with Tailwind CSS to create sleek, modern designs that are both functional and visually appealing. My journey in web development is driven by a love for clean code and a desire to create intuitive user experiences.
-
-
                     </p>
                     <div>
                         <Link to="portfolio" smooth duration={500}
