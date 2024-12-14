@@ -20,7 +20,7 @@ const Home = () => {
                         </Link>
                     </div>
                 </div>
-                <div>
+                <div className='p-4 rounded-md'>
                     <img src={HeroImage} alt="my pitcure" className="rounded-2xl mx-auto w-2/3 md:w-full" />
                 </div>
             </div>
